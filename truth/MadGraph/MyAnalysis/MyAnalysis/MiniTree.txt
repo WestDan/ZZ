@@ -1,0 +1,85 @@
+################################################ 
+# this keep a record of all the variables that
+# we want in the output tree for further cut
+# 
+# lines begin with '#' are comments and will be
+# ignored when dealt with.
+################################################
+Str      filename
+Int_t    run
+Ulo_t    event
+Int_t    njet
+Int_t    nmuon
+Int_t    nele
+Int_t    nneu
+Float_t  mcweight
+Float_t  l1_pt
+Float_t  l1_eta
+Float_t  l1_phi
+Float_t  l1_e
+### Float_t  l1_id
+Float_t  l2_pt
+Float_t  l2_eta
+Float_t  l2_phi
+Float_t  l2_e
+### Float_t  l2_id
+Float_t  l3_pt
+Float_t  l3_eta
+Float_t  l3_phi
+Float_t  l3_e
+### Float_t  l3_id
+Float_t  l4_pt
+Float_t  l4_eta
+Float_t  l4_phi
+Float_t  l4_e
+### Float_t  l4_id
+Float_t  leadingj_pt
+Float_t  leadingj_eta
+Float_t  leadingj_phi
+Float_t  leadingj_e
+Float_t  subleadingj_pt
+Float_t  subleadingj_eta
+Float_t  subleadingj_phi
+Float_t  subleadingj_e
+Float_t  z1_pt
+Float_t  z1_eta
+Float_t  z1_phi
+Float_t  z1_e
+Float_t  z1_m
+Float_t  z2_pt
+Float_t  z2_eta
+Float_t  z2_phi
+Float_t  z2_e
+Float_t  z2_m
+Float_t  zz_pt
+Float_t  zz_eta
+Float_t  zz_phi
+Float_t  zz_e
+Float_t  zz_m
+Float_t  truthz1_pt
+Float_t  truthz1_eta
+Float_t  truthz1_phi
+Float_t  truthz1_e
+Float_t  truthz1_m
+Float_t  truthz2_pt
+Float_t  truthz2_eta
+Float_t  truthz2_phi
+Float_t  truthz2_e
+Float_t  truthz2_m
+Float_t  truthzz_pt
+Float_t  truthzz_eta
+Float_t  truthzz_phi
+Float_t  truthzz_e
+Float_t  truthzz_m
+Float_t  jj_pt
+Float_t  jj_eta
+Float_t  jj_phi
+Float_t  jj_e
+Float_t  jj_m
+Float_t  delta_eta_jj
+Float_t  delta_R_ll_1
+Float_t  delta_R_ll_2
+Float_t  delta_R_zz
+Float_t  delta_R_jj
+Float_t  delta_R_zz_jj
+Float_t  centrality
