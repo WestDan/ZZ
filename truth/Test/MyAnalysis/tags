@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddVarIntoTree	Root/Initialize.h	/^void MyxAODAnalysis :: AddVarIntoTree(TTree *tree) {$/;"	f	class:MyxAODAnalysis
+AnalysisVar	MyAnalysis/AnalysisVar.h	/^class AnalysisVar {$/;"	c
+AnalysisVar_h	MyAnalysis/AnalysisVar.h	6;"	d
+InitStrVec	Root/Initialize.h	/^void MyxAODAnalysis :: InitStrVec(vector<string>& out, string in, string de) {$/;"	f	class:MyxAODAnalysis
+InitTreeVar	Root/Initialize.h	/^void MyxAODAnalysis :: InitTreeVar(string varlist, string type) {$/;"	f	class:MyxAODAnalysis
+L	MyAnalysis/OBJ_Base.h	/^	TLorentzVector L;$/;"	m	class:OBJ_NEUTRINO
+L	MyAnalysis/OBJ_Base.h	/^	TLorentzVector L;$/;"	m	class:OBJ_Z
+L	MyAnalysis/OBJ_Base.h	/^        TLorentzVector L;$/;"	m	class:OBJ_ELECTRON
+L	MyAnalysis/OBJ_Base.h	/^        TLorentzVector L;$/;"	m	class:OBJ_JET
+L	MyAnalysis/OBJ_Base.h	/^        TLorentzVector L;$/;"	m	class:OBJ_MUON
+MapType2_Double	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, double> > MapType2_Double;$/;"	t
+MapType2_Float	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, float> > MapType2_Float;$/;"	t
+MapType2_Int	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string,int> > MapType2_Int;$/;"	t
+MapType2_String	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, string> > MapType2_String;$/;"	t
+MapType2_ULong64	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, unsigned long long> > MapType2_ULong64;$/;"	t
+MapType2_VDouble	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, vector<double> > > MapType2_VDouble;$/;"	t
+MapType2_VFloat	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, vector<float> > > MapType2_VFloat;$/;"	t
+MapType2_VInt	MyAnalysis/AnalysisVar.h	/^typedef map<string, map<string, vector<int> > > MapType2_VInt;$/;"	t
+MapType_Double	MyAnalysis/AnalysisVar.h	/^typedef map<string, double> MapType_Double;$/;"	t
+MapType_Float	MyAnalysis/AnalysisVar.h	/^typedef map<string, float> MapType_Float;$/;"	t
+MapType_Int	MyAnalysis/AnalysisVar.h	/^typedef map<string, int> MapType_Int;$/;"	t
+MyAnalysis_MyxAODAnalysis_H	MyAnalysis/MyxAODAnalysis.h	2;"	d
+MyAnalysis_OBJ_H	MyAnalysis/OBJ_Base.h	2;"	d
+MyxAODAnalysis	MyAnalysis/MyxAODAnalysis.h	/^class MyxAODAnalysis : public EL::Algorithm, public AnalysisVar  \/\/ no definition even in AnalysisVar.h ??? --Zhang$/;"	c
+MyxAODAnalysis	Root/MyxAODAnalysis.cxx	/^MyxAODAnalysis :: MyxAODAnalysis ()$/;"	f	class:MyxAODAnalysis
+MyxAODAnalysis	Root/MyxAODAnalysis.cxx	/^MyxAODAnalysis :: MyxAODAnalysis (string treename="physics")$/;"	f	class:MyxAODAnalysis
+OBJ_ELECTRON	MyAnalysis/OBJ_Base.h	/^class OBJ_ELECTRON {$/;"	c
+OBJ_JET	MyAnalysis/OBJ_Base.h	/^class OBJ_JET {$/;"	c
+OBJ_MUON	MyAnalysis/OBJ_Base.h	/^class OBJ_MUON {$/;"	c
+OBJ_NEUTRINO	MyAnalysis/OBJ_Base.h	/^class OBJ_NEUTRINO {$/;"	c
+OBJ_Z	MyAnalysis/OBJ_Base.h	/^class OBJ_Z {$/;"	c
+PI	MyAnalysis/OBJ_Base.h	/^const double PI=3.1415926;$/;"	v
+Tree	MyAnalysis/AnalysisVar.h	/^	TTree * Tree;$/;"	m	class:AnalysisVar
+TreeDblVVar	MyAnalysis/AnalysisVar.h	/^        MapType2_VDouble TreeDblVVar;$/;"	m	class:AnalysisVar
+TreeFltVVar	MyAnalysis/AnalysisVar.h	/^        MapType2_VFloat TreeFltVVar;$/;"	m	class:AnalysisVar
+TreeFltVar	MyAnalysis/AnalysisVar.h	/^        MapType2_Float TreeFltVar;$/;"	m	class:AnalysisVar
+TreeIntVVar	MyAnalysis/AnalysisVar.h	/^        MapType2_VInt TreeIntVVar;$/;"	m	class:AnalysisVar
+TreeIntVar	MyAnalysis/AnalysisVar.h	/^        MapType2_Int TreeIntVar;$/;"	m	class:AnalysisVar
+TreeStrVar	MyAnalysis/AnalysisVar.h	/^        MapType2_String TreeStrVar;$/;"	m	class:AnalysisVar
+TreeUloVar	MyAnalysis/AnalysisVar.h	/^        MapType2_ULong64 TreeUloVar;$/;"	m	class:AnalysisVar
+Unit_GeV	MyAnalysis/OBJ_Base.h	/^const double Unit_GeV = 1000.; \/\/MeV$/;"	v
+VOelectron	MyAnalysis/OBJ_Base.h	/^typedef vector<OBJ_ELECTRON> VOelectron;$/;"	t
+VOjet	MyAnalysis/OBJ_Base.h	/^typedef vector<OBJ_JET> VOjet;$/;"	t
+VOmuon	MyAnalysis/OBJ_Base.h	/^typedef vector<OBJ_MUON> VOmuon;$/;"	t
+VOneutrino	MyAnalysis/OBJ_Base.h	/^typedef vector<OBJ_NEUTRINO> VOneutrino ;$/;"	t
+VOz	MyAnalysis/OBJ_Base.h	/^typedef vector<OBJ_Z>  VOz;$/;"	t
+ZMass	MyAnalysis/OBJ_Base.h	/^const double ZMass=91.1876e3; \/\/MeV$/;"	v
+changeInput	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: changeInput (bool firstFile)$/;"	f	class:MyxAODAnalysis
+charge	MyAnalysis/OBJ_Base.h	/^        double charge;$/;"	m	class:OBJ_ELECTRON
+charge	MyAnalysis/OBJ_Base.h	/^        int charge;$/;"	m	class:OBJ_MUON
+e_mass	MyAnalysis/OBJ_Base.h	/^const double e_mass = 0.511; \/\/MeV$/;"	v
+end	MyAnalysis/MyxAODAnalysis.h	/^  time_t start, end; \/\/!$/;"	m	class:MyxAODAnalysis
+execute	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: execute ()$/;"	f	class:MyxAODAnalysis
+fileExecute	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: fileExecute ()$/;"	f	class:MyxAODAnalysis
+finalize	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: finalize ()$/;"	f	class:MyxAODAnalysis
+histFinalize	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: histFinalize ()$/;"	f	class:MyxAODAnalysis
+histInitialize	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: histInitialize ()$/;"	f	class:MyxAODAnalysis
+initialize	Root/Initialize.h	/^EL::StatusCode MyxAODAnalysis :: initialize ()$/;"	f	class:MyxAODAnalysis
+isMC	MyAnalysis/MyxAODAnalysis.h	/^  bool isMC;$/;"	m	class:MyxAODAnalysis
+m_FileName	MyAnalysis/MyxAODAnalysis.h	/^  string m_FileName; \/\/!$/;"	m	class:MyxAODAnalysis
+m_event	MyAnalysis/MyxAODAnalysis.h	/^  xAOD::TEvent *m_event;  \/\/!$/;"	m	class:MyxAODAnalysis
+m_eventCounter	MyAnalysis/MyxAODAnalysis.h	/^  int m_eventCounter; \/\/!$/;"	m	class:MyxAODAnalysis
+m_fiducial	MyAnalysis/MyxAODAnalysis.h	/^  int m_fiducial; \/\/!$/;"	m	class:MyxAODAnalysis
+m_grl	MyAnalysis/MyxAODAnalysis.h	/^  GoodRunsListSelectionTool *m_grl; \/\/!$/;"	m	class:MyxAODAnalysis
+m_mass	MyAnalysis/OBJ_Base.h	/^const double m_mass=105.658; \/\/MeV$/;"	v
+m_sumOfWeights	MyAnalysis/MyxAODAnalysis.h	/^  double m_sumOfWeights;  \/\/ sumofWeights$/;"	m	class:MyxAODAnalysis
+main	util/testZHinv_13.cxx	/^int main( int argc, char* argv[] ) {$/;"	f
+postExecute	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: postExecute ()$/;"	f	class:MyxAODAnalysis
+set	MyAnalysis/MyxAODAnalysis.h	/^  string set; \/\/!$/;"	m	class:MyxAODAnalysis
+setupJob	Root/MyxAODAnalysis.cxx	/^EL::StatusCode MyxAODAnalysis :: setupJob (EL::Job& job)$/;"	f	class:MyxAODAnalysis
+start	MyAnalysis/MyxAODAnalysis.h	/^  time_t start, end; \/\/!$/;"	m	class:MyxAODAnalysis
+sumOfWeights	MyAnalysis/MyxAODAnalysis.h	/^  float sumOfWeights; \/\/!$/;"	m	class:MyxAODAnalysis
+sumOfWeightsSquared	MyAnalysis/MyxAODAnalysis.h	/^  float sumOfWeightsSquared; \/\/!$/;"	m	class:MyxAODAnalysis
